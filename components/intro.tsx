@@ -100,7 +100,7 @@ export default function Intro() {
           target="_blank"
         >
           Resume{" "}
-          <GoMoveToEnd className="opacity-60 group-hover:translate-y-1 transition" />
+          <GoMoveToEnd className="opacity-60 group-hover:translate-x-1 transition" />
         </a>
 
         <a
