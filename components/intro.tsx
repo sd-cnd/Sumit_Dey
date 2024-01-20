@@ -8,6 +8,9 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { GoMoveToEnd } from "react-icons/go";
 import { FaGithubSquare } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { SiCodeforces } from "react-icons/si";
+import { SiGeeksforgeeks } from "react-icons/si";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import myimg from "@/public/MY_PIC2.jpg"
@@ -114,6 +117,27 @@ export default function Intro() {
           target="_blank"
         >
           <FaGithubSquare />
+        </a>
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://leetcode.com/sumit_dey2003/"
+          target="_blank"
+        >
+          <SiLeetcode />
+        </a>
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://codeforces.com/profile/sumitdey_1008"
+          target="_blank"
+        >
+          <SiCodeforces />
+        </a>
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://auth.geeksforgeeks.org/user/sumit_dey"
+          target="_blank"
+        >
+          <SiGeeksforgeeks />
         </a>
       </motion.div>
     </section>
