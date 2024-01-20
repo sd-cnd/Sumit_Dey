@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
+import { GoMoveToEnd } from "react-icons/go";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -96,7 +97,7 @@ export default function Intro() {
           target="_blank"
         >
           Resume{" "}
-          {/* <HiDownload className="opacity-60 group-hover:translate-y-1 transition" /> */}
+          <GoMoveToEnd className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a
